@@ -16,7 +16,14 @@ interface CandidateSearchProps {
 
  const CandidateItem = ({ avatar, name, location, email, company, bio }: CandidateSearchProps) => (
   <section>
-    <figure><img src={avatar} alt={`${name}'s avatar`} width='100%' height='25%' /></figure>
+    <figure>
+      <img 
+      src={avatar || '/unknown_avatar.png'} 
+      alt={`${name}'s avatar`} 
+      width='100%' 
+      height='25%' 
+      />
+    </figure>
     <article>
     <h2>{name || "NA"}</h2>
     <p>Location: {location|| "NA"}</p>

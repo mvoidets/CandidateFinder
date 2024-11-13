@@ -8,7 +8,7 @@ const SavedCandidates = () => {
   // Load candidates from localStorage when the component mounts
   useEffect(() => {
     const savedCandidates = localStorage.getItem('candidate');
-    if (candidates) {
+    if (savedCandidates) {
       setCandidates(JSON.parse(savedCandidates));
     }
   }, []);
