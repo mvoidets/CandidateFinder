@@ -11,7 +11,7 @@ const SavedCandidates = () => {
     if (candidates) {
       setCandidates(JSON.parse(savedCandidates));
     }
-  }, [candidates]);
+  }, []);
 
   // Remove a candidate from the list and update localStorage
   const removeFromStorage = (id: number) => {
