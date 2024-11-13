@@ -10,5 +10,4 @@ export default defineConfig({
     port: process.env.PORT || 3000 // Use the PORT environment variable if available, otherwise default to 3000
 
   }
-  
 });
