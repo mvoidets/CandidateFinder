@@ -25,6 +25,9 @@
 ![search](public/candidate_search.png)
 ![potential candidates](public/potential.png )
 
+  ### Live view of application
+  https://candidatefinder-1.onrender.com
+
   ## Install
 
     npm run start or you can launch the app via Render from READMe
