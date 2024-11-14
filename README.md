@@ -30,7 +30,7 @@
 
   ## Install
 
-    npm run start or you can launch the app via Render from READMe
+    npm run build && npm run dev 
 
   ## Contributor
 
